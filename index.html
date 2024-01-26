@@ -29,7 +29,7 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <ul class="nav-links">
+                <ul>
                     <li><a href="#about" onclick="toggleMenu()">About</a></li>
                     <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                     <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
@@ -38,6 +38,35 @@
             </div>
         </div>
     </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile2.jpeg" alt="Mirindra Randrianarison Profile Picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Mirindra Randrianarison</h1>
+            <p class="section__text__p2">Computer Science student, Artist in my spare time</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/CV_Randrianarison_Mirindra.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact me</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/mirindra-randrianarison-ratsiandavana'">
+                <img src="./assets/github.png" alt="My gitHub Profile" class="icon" onclick="location.href='https://github.com/henitsu'">
+                <img src="./assets/instagram.png" alt="My Instagram Profile" class="icon" onclick="location.href='https://www.instagram.com/ame_sensible_sarcastique'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/profile3.png" alt="Mirindra Randrianarison Profile Picture">
+            </div>
+            <p class="section__text__p2">I am a Computer Science student at the University of Antananarivo, Madagascar. I am passionate about web development and I am currently learning ReactJS. I am also a self-taught artist and I like to draw and paint in my spare time.</p>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
