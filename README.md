@@ -1,2 +1,2 @@
-# portfolio-drawings
-It is a portfolio that shows my drawings : digital and traditional.
+# portfolio
+It is a portfolio that shows my personnal projects in IT and Art.
